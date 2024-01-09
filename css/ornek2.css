@@ -1,0 +1,66 @@
+body{
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+    
+}
+nav{
+    width: 100%;
+    font-family: monospace;
+    background-color: rgb(92, 59, 65);
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: fixed;
+    
+}
+#basliklogo{
+    float: left;
+    padding-top: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.temizduzeltme::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#basliklogo .logo{
+    color: #fff;
+    font-weight:700;
+    font-size: 2.2rem;
+  
+}
+.yazi_kaldirma{
+    text-transform: uppercase;
+}
+#nav-links{
+    float: right;
+}
+#nav-links .nav-item{
+    float: left;
+    margin: 1rem;
+}
+#nav-links .nav-link{
+    color:#fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: block;
+    padding: 1.6rem;
+    letter-spacing: 0.1rem;
+    transition: color 0.4s;
+}
+#nav-links .nav-link:hover{
+    color: chocolate;
+}
+header{
+    background-color: azure;
+    height: 700px;
+}

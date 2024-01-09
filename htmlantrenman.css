@@ -1,0 +1,65 @@
+.paragraf{
+    color: red;
+}
+div {
+    color: brown;
+}
+
+h2[title="baslik1"] {
+    color: rebeccapurple;
+}
+p[title="baslik1"] {
+    color: lightblue;
+    text-align: justify;
+}
+a[target="_blank"]{
+    color: aquamarine;
+
+}
+input [type="text"] {
+    background-color: rgb(105, 68, 23);
+}
+hr
+p::first-line{
+    font-weight: bold;
+    color: darkred;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+ p::first-letter{
+    font-size: 50px;
+ }
+ /* pesudo class */
+ ul li{
+    padding: 10px;
+    margin-bottom: 10px;
+
+ }
+  ul li:first-child{
+    background-color: darkgreen;
+  }
+ul li:last-child{
+    background-color: tomato;
+
+}
+
+a:visited{
+    color: fuchsia;
+}
+
+a:hover{
+    color: beige;
+    background: blue;
+}
+
+a {
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+hr 
+body{
+    color: cadetblue
+}

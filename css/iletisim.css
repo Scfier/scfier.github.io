@@ -1,0 +1,78 @@
+.denem1{
+    color: red;
+}
+#urs{
+    color: brown;
+}
+h3{color: blue;
+font-size: 2em;
+background-color: aqua;
+ }
+ p{
+    background-image:url("../images/resim2.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+ }
+ .urasabin{
+    width: 300px;
+    height: 400px;
+    background-color: blueviolet;
+ }
+
+.yazi_metinleme{
+    text-align: center;
+    text-transform: lowercase;
+}
+#yazi_hizalama{
+    color:navy;
+    text-align: center;
+    text-decoration:line-through;
+    text-shadow: 30px 10px 20px black;
+    text-transform: uppercase;
+    text-indent: 150px;
+    font-family:sans-serif;
+    font-size: 24px;
+    font-weight: 100px;
+    font: oblique bolder 45px;
+    border: solid;
+    border-width:thick;
+    border-top-width: thin;
+    border-color: yellowgreen;
+    border-radius: 9px;
+    margin-top: 40px;
+    margin: 60px;
+    /* margin ust sağ alt sol*/
+    width: 200px;
+    margin:0 auto;
+    /* bu ortalama yapar */
+    
+
+}
+.acilir_menu{
+    display: none;
+}
+
+li:hover .acilir_menu{
+    display: block;
+    position:absolute;
+}
+
+.reklam{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: red;
+    width: 50%;
+    height: 10%;
+    z-index: 999999999;
+
+}
+@media screen and (max-width: 600px) {
+    body{
+        background-color: red;
+    }
+    
+}
+.dropdown-menu{
+    text-align: center;
+}
